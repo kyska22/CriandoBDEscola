@@ -11,24 +11,6 @@ De acordo com os comandos aprendidos, programe códigos SQL para criar um banco 
 5. adicione um atributo e-mail do tipo varchar;
 6. adicione um atributo endereço do tipo varchar.
 
-
-Aqui está um conjunto de comandos SQL para criar o banco de dados "ESCOLA", criar a tabela "ALUNO" e adicionar os atributos especificados:
-
-sql
-Copy code
--- Criar o banco de dados ESCOLA
-CREATE DATABASE ESCOLA;
-
--- Usar o banco de dados ESCOLA
-\c ESCOLA;
-
--- Criar a tabela ALUNO
-CREATE TABLE ALUNO (
-    ID SERIAL PRIMARY KEY,
-    nome VARCHAR(100),
-    email VARCHAR(100),
-    endereco VARCHAR(255)
-);
 Explicação dos comandos:
 
 CREATE DATABASE ESCOLA;: Este comando cria o banco de dados chamado "ESCOLA".
